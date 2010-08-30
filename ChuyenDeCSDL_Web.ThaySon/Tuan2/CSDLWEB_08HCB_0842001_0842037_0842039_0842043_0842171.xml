@@ -1,0 +1,36 @@
+﻿
+<group>
+<student>
+	<studentid>0842001</studentid>
+	<name>Trần Thanh An</name>
+	<email>thanhandt@yahoo.com</email>	
+	<role>Thành viên</role> 
+</student>
+
+<student>
+	<studentid>0842037</studentid>
+	<name>Nguyễn Thị Thu Hà</name>
+	<email>hoctronghichngom_762@yahoo.com</email>	
+	<role>Thành viên</role>
+</student>
+
+<student>
+	<studentid>0842039</studentid>
+	<name>Nguyễn Thị Thanh Hải</name>
+	<email>ntthanhhai87@gmail.com</email>
+	<role>Nhóm trưởng</role>
+</student>
+<student>
+	<studentid>0842043</studentid>
+	<name>Diệp Văn Hạo</name>
+	<email>diepvanhao@yahoo.com</email>
+	<role>Thành viên</role>
+</student>
+
+<student>
+	<studentid>0842171</studentid>
+	<name>Võ Thanh Tùng</name>
+	<email>tungvo87@yahoo.com</email>
+	<role>Thành viên</role>
+</student>
+</group>
