@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>-- CTY CP TƯ DUY MỚI --</title>
+<link href="/images/icon.gif" rel="icon" type="image/gif" />
+
+<style type="text/css">
+*{margin:0 auto;}
+body{
+	font-family:arial;
+	font-size:12px;
+	background:#0e4b63;
+}
+#wrapper{
+	width:892px;
+	min-height:828px;
+	background:#93C4FE;
+}
+#banner{
+
+	width:892px;
+	height:210px;
+	margin:auto;
+	background:#fff4db;
+}
+#welcome-internet
+{
+	width:100%;
+	height:166px;
+	background:url(/images/welcome-rep.png) repeat-x;
+	margin-top:4px;
+	margin-:4px;
+}
+#text-welcome{
+	background:url(/images/welcome.png) no-repeat;
+	width:866px;
+	height:166px;
+	margin-left:26px;
+}
+#content{
+	width:892px;
+	min-height:600px;
+}
+#content #left{
+	width:359px;
+	min-height:535px;
+	float:left;
+	/* background:url(/images/bg-dn-rep.jpg) repeat-x; */
+	background:#93c4fe;
+}
+#login{
+	width:330px;
+	height:177px;
+}
+#login #title{
+	width:330px;
+	height:47px;
+	background:url(/images/tua-dn.png) no-repeat;
+}
+#main-login{
+	background:white;
+	width:100%;
+	height:133px;
+
+}
+#xuly{
+	width:100%;
+	height:143px;
+	padding-top: 15px;
+}
+.textbox{
+	width:168px;
+	height:22px;
+	float:right;
+}
+label{font-size: 16px; color: #555555;}
+#lbl{
+	width:100px;
+	float:left;
+}
+#bottom{
+	background:url(/images/bottom-dn.png) no-repeat;
+	width:100%;
+	height:14px;
+}
+#img-quangcao{
+	width:308px;
+	height:263px;
+	margin-top:34px;
+	margin-left:10px;
+	border:1px solid white;
+	
+	
+}
+#right{
+	width:532px;
+	min-height:512px;
+	float:right;
+	background:white;
+	margin-top:-600px;
+}
+.news{
+	background:url(/images/bg-rep.gif) repeat-x top;
+	width:532px;
+	height:34px;
+	
+}
+span.box-header{
+	display:block;
+	font-weight:bold;
+	background:url(/images/box-header.png) no-repeat;
+	font-family:arial;
+	font-size:14pt;
+	padding-top:4px;
+	color:white;
+
+}
+.right-content{
+	width:532px;
+	/* border-left:1px solid #dad2d2; */
+	line-height:20px;
+	background:white;
+	overflow:auto;
+}
+.right-content p{
+	/* padding:10px 10px 10px 20px; */
+	width:470px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#0033FF;
+	margin:30px;
+}
+#truong{
+	width:186px;
+	float:left;
+	margin-bottom:30px;/* cach voi Than Phien */
+}
+#truong2{
+	width:270px;
+	float:left;
+	margin-bottom:30px;/* cach voi Than Phien */
+} 
+#contact{
+	width:90%;
+	min-height:200px;
+	margin-left:50px;
+	padding-bottom:50px;
+	float:left;
+	padding-top:10px;
+}
+#picture{
+	float:left;
+	margin-top:18px;
+	float:left;
+}
+#phone-detail{
+	width:540px;
+	float:left;
+	margin-left:10px;
+}
+
+#title-contact{
+	color:#c60931;
+	font-weight:bold;
+	margin:20px 0 20px 0px;
+	width:380px;
+	font-size:14px;
+}
+.red{
+	color:#c60931;
+	font-weight:bold;
+	font-size:12px;
+}
+#red-phone{
+	width:100%;
+}
+.blue{
+	color:#087ce8;
+	font-weight:bold;
+}
+#footer{
+	background-color:#0A6C93;
+	width:892px;
+	height:80px;
+	clear:both;/* de cho thanh mau den o duoi cung, khi noi dung cua div ben phai dai ra */
+}
+#img-copyright{
+	margin-top:30px;
+	margin-left:199px;
+}
+#banner-VI{
+	width:450px;
+	height:80px;
+	background:#FFECFC;
+	margin-bottom:30px;
+	/* margin-top:100px; */
+}
+#ad-forum{
+	width:450px;
+	height:80px;
+	margin-bottom:20px;
+	margin-top:5px;
+}
+#frame-1{
+	width:532px;
+	height:120px;
+}
+</style>
+
+<!-- code xu ly dang nhap -->
+<script language="JavaScript" type="text/JavaScript">
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function OpenAuthWin(URL) {
+   return (open(URL,"ClientCTRL","top=400,left=500,width=450,height=240,scrollbars=no,menubar=no,toolbar=no,statusbar=no"));
+}
+function Authenticate() {
+  if (""=="yes") {
+     alert("This is a Captive Portal Web Login preview.");
+     return;
+  }
+  X=document.data;
+  if (X.U.value=="") {
+    alert("The Username cannot be empty.");
+    X.U.focus();
+    return;
+  }
+  if (X.P.value=="") {
+    alert("The Password cannot be empty.");
+    X.P.focus();
+    return;
+  }
+  newwin=OpenAuthWin("/script/connected.cgi?"+X.U.value+""); <!-- chu y dong code nay -->
+  X.submit();	 <!-- chu y dong code nay -->
+  newwin.focus();	 <!-- chu y dong code nay -->
+  
+}
+function loaded() {
+  ImgLoaded();
+  X=document.data;
+  if (""=="yes") {
+     X.U.disabled=true;    
+     X.P.disabled=true;    
+  } else {
+    X.U.focus();
+    X.ZSCPRedirect.value=unescape(X.ZSCPRedirect.value);
+    X.RND.value=Math.random();
+  }
+  
+}
+function CheckEnterKey(FieldObj,Event) {
+  var keycode;
+  if (window.event) {
+    keycode = window.event.keyCode;
+  } else {
+    if (Event) {
+      keycode = Event.which;
+    } else {
+      return true;
+    }
+  }
+  if (keycode == 13) {
+   if (FieldObj==document.data.P) {
+     Authenticate();
+     return false;
+   } else if (FieldObj==document.data.U) {
+     document.data.P.focus();
+     return false;
+   } 
+   return true;
+  } else {
+   return true;
+  }
+}
+function ImgLoaded() {
+  document["Immagine"].src="/cp_image";
+  largo=parseInt("160");
+  if (largo=="NaN") {
+    largo=240;
+  }
+  alto=parseInt("100");
+  if (alto=="NaN") {
+    alto=160;
+  } 
+  document["Immagine"].width=largo;
+  document["Immagine"].height=alto;
+}
+function ShowInfo() {
+   var newwin=window.open("zscp?Section=CPAuth&Action=ShowInfo&Type=General","ShowInfo","top=200,left=300,width=550,height=400,scrollbars=yes,menubar=no,toolbar=no,statusbar=no");
+   newwin.focus();
+}
+function x509auth() {
+  if (""=="yes") {
+     alert("This is a Captive Portal Web Login preview.");
+     return;
+  }
+  X=document.data;
+  DURL="/SSLAuthClient/cgi-bin/zscp?Section=CPAuth&Action=Authenticate&ZSCPRedirect="+escape(X.ZSCPRedirect.value)+"&Powered="+X.Powered.value+"&RND="+X.RND.value;
+  location=DURL
+  newwin=OpenAuthWin("");
+  newwin.focus();
+}
+</script>
+</head>
+
+<body>
+	<div id="wrapper">
+		 
+		<div id="header">
+			<div id="banner">
+				  <object type="application/x-shockwave-flash"
+				  data="/flash/banner.swf" width="892" height="200">
+				  <param name="loop" value="true" />
+				  <param name="menu" value="false" />
+				  </object>
+			</div><!-- End #banner -->	
+		</div><!-- End #header -->
+		
+		<div id="content">
+			<div id="left">
+					<div id="login">
+						<div id="title"></div>
+						<div id="main-login">
+							<div id="xuly">
+								<table cellpadding="3" cellspacing="5" style="border-collapse:collapse">
+									<form name=data method=post action=zscp>
+										<input type=hidden name=Section value=CPAuth> 
+										<input type=hidden name=Action value=Authenticate> 
+										<input type=hidden name=ZSCPRedirect value="">
+										<input type=hidden name=Powered value="CTY CO PHAN TU DUY MOI">
+										<input type=hidden name=RND value="">
+											<tr>
+												<td><label for="user"> Tên đăng nhập </label></td>
+												<td><input type=text name=U onKeyPress="return CheckEnterKey(this,event)"/></td>
+											</tr>												
+											<tr>
+												<td><label for="pwd"> Mật khẩu </label></td>
+												<td><input type=password name=P onKeyPress="return CheckEnterKey(this,event)"/></td>
+											</tr>
+											<tr>
+												<td><label for="domain"> Tên miền </label></td>
+												<td><select name=Realm>
+													<option value='TUDUYMOI.VN'>TUDUYMOI.VN</option>
+													</select></td>
+											</tr>
+											
+											<tr>
+												<td align="center">
+													<!-- <img src="/images/user.png"> </img> -->
+													<img src="http://icon.ccom.vn/upload/shop/?_1258214665_1.gif" />
+												</td>
+												<td align="center">
+													<input type="image" src="/images/btn-dn.png" value="Network Access" onClick="Authenticate()"/> <script> if ("<xvar/system/cp/Auth/Custom/GeneralInfoVisible>"=="yes")</script>
+												</td>
+											</tr>	
+									</form>
+								</table>
+							 </div><!-- End #xyly -->
+
+						</div><!-- End #main-login -->
+						<div style="clear: both;"></div>
+						<div id="bottom"></div>
+						
+						<div id="img-quangcao">
+							      <object type="application/x-shockwave-flash"
+								  data="/flash/banner-login.swf" width="308" height="263">
+								  <param name="loop" value="true" />
+								  <param name="menu" value="false" />
+										
+								</object>
+						</div>
+					</div><!-- End #login -->
+			
+			</div><!-- End #left -->
+		</div> <!-- #content -->	
+		
+			<div id="right">
+				<div id="frame-1">
+					<div class="news"> <center> <span class="box-header">THÔNG BÁO </span></center>
+					</div>
+						<div class="right-content"> 
+								<!-- <img src="/images/icon-tbao.png" width="40" height="40" style="float:left;margin:30px 5px" />
+								<p align="justify" style="margin-bottom:20px">
+									Hiện tại đường truyền quốc tế của nhà cung cấp dịch vụ đang bị lỗi, nên những trang quốc tế sẽ không vào được. Nhà cung cấp dịch vụ sẽ sửa chữa trong thời gian sớm nhất. Mong các bạn thông cảm.
+								</p> -->
+								<img src="/images/icon-tbao.png" width="40" height="40" style="float:left;margin:30px 5px 5px" />
+								<p align="justify">
+									Các Bạn có nhu cầu sử dụng Internet tháng <span class="red"> 09/2010</span>, vui lòng liên hệ Phòng Kĩ thuật để đăng ký.			                                                   Xin cảm ơn. 
+								</p>
+						</div> <!-- End #right-content -->
+				</div><!-- End #frame-1 -->
+				
+								
+				<div id="ad-forum"><!-- Banner quang cao Forum-->
+					<object type="application/x-shockwave-flash"
+								  data="/flash/quang-cao-forum.swf" width="450" height="80">
+								  <param name="loop" value="true" />
+								  <param name="menu" value="false" />
+					</object>	
+				</div><!-- End Banner quang cao xem Phim online-->
+				
+				<div id="frame-2">
+					<div class="news"> <center> <span class="box-header">THÔNG TIN LIÊN HỆ</span></center>
+					</div>
+					<div class="right-content">
+						<div id="contact"> 
+							<p align="left" id="title-contact">MỌI SỰ CỐ KĨ THUẬT XIN VUI LÒNG LIÊN HỆ</p>
+							<div id="phone-detail">
+									<span class="blue">KTX Kinh tế (Nguyễn Chí Thanh)</span> <span class="red"> &nbsp; &nbsp; &nbsp; A. Dung (0935.411.817) </span> <br/>
+									<span class="blue">KTX Y Dược</span> <span class="red"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  A. Vũ (0975.883.297)  </span> <br/>
+									<span class="blue">KTX Kinh tế (Trần Hưng Đạo)</span> <span class="red"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  A. Hải (0905.250.978) </span> <br/> 
+									<span class="blue">KTX KHTN (Trần Hưng Đạo)</span> <span class="red"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A. Hải (0905.250.978) </span> <br/><br/>
+									
+							</div><!-- End #phone-detail -->
+							
+						
+							
+							<p align="left" id="title-contact" style="clear:both">MỌI KHIẾU NẠI, THAN PHIỀN XIN VUI LÒNG LIÊN HỆ</p>
+							
+							
+							<div id="truong2">
+								<span class="blue">Hotline: </span> <span class="red"> 0907 981 778 </span>(A.Tiên) <br/>
+								<span class="blue">Email:</span> <span class="red">kythuat@tuduymoi.vn</span> <br/>
+								<span class="blue">Website:</span> <span class="red">www.tuduymoi.vn</span>
+								
+							</div><!-- End #truong2-->
+							
+						</div><!-- End #contact -->
+					</div><!-- End #right-content -->
+				</div><!-- End #frame-2 -->
+			</div><!-- End #right -->
+			
+			<div id="footer"> <img id="img-copyright" src="/images/copyright.png" width="489"  height="18"/>
+			</div><!-- End #footer -->
+		</div><!-- End #wrapper -->
+
+
+</body>
+</html>
+
